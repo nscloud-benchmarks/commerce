@@ -2,7 +2,7 @@ name: test
 on: [pull_request, workflow_dispatch]
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: nscloud
     steps:
       - name: Cancel running workflows
         uses: styfle/cancel-workflow-action@0.11.0
