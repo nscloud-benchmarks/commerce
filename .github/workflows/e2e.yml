@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   e2e:
-    runs-on: nscloud
+    runs-on: nscloud-ubuntu-22.04-amd64-8x32
     steps:
       - name: Cancel running workflows
         uses: styfle/cancel-workflow-action@0.11.0
